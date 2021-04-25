@@ -1,5 +1,4 @@
-import {BootStrapLoader,BootStrapConfigORLoaders} from './interfaces';
-import {Bootstrap} from './classes'
+import {BootStrapLoader,BootStrapConfigORLoaders,Bootstrap} from './';
 export function startBootstrapProcess(config: BootStrapConfigORLoaders): Promise<Bootstrap>;
 export function startBootstrapProcess(modules: BootStrapLoader[]): Promise<Bootstrap>;
 export function startBootstrapProcess(configOrModules: BootStrapConfigORLoaders|BootStrapLoader[]): Promise<Bootstrap> {

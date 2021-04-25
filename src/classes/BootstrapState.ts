@@ -1,4 +1,4 @@
-import {ShutdownHandler} from '../interfaces';
+import {ShutdownHandler} from '../';
 export class BootstrapState{
     private data:{[key:string]:any} = {}; 
     private shutdownHandlers:ShutdownHandler[]=[];

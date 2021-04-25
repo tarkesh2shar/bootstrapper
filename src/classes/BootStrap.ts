@@ -1,5 +1,4 @@
-import {BootStrapLoader,BootstrappedAppConfig} from '../interfaces';
-import {BootstrapState} from './BootstrapState'
+import {BootStrapLoader,BootstrappedAppConfig,BootstrapState} from '../';
 export class Bootstrap {
     private bootstrappedAppConfig?: BootstrappedAppConfig;
     private loaders: BootStrapLoader[] = [];

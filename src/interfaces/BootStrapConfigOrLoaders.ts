@@ -1,4 +1,4 @@
-import {BootStrapLoader,BootstrappedAppConfig} from '../interfaces'
+import {BootStrapLoader,BootstrappedAppConfig} from '../'
 export interface BootStrapConfigORLoaders {
     config?: BootstrappedAppConfig;
     loaders?: BootStrapLoader[];
